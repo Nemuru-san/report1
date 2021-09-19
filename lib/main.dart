@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -48,7 +49,8 @@ class Home extends StatelessWidget {
                       style: new TextStyle(
                         fontSize: 30,
                         height: 2,
-                        letterSpacing: 5,
+                        letterSpacing: 2,
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                         fontStyle: FontStyle.italic,
                       )),
