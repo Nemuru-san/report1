@@ -48,6 +48,7 @@ class Home extends StatelessWidget {
                       style: new TextStyle(
                         fontSize: 30,
                         height: 2,
+                        letterSpacing: 5,
                         color: Colors.white,
                         fontStyle: FontStyle.italic,
                       )),
